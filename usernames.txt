@@ -1,0 +1,10 @@
+import random
+
+usernames = []
+for i in range(100):
+    username = f"username{random.randint(1, 100)}"
+    usernames.append(username)
+
+with open("usernames.txt", "w") as f:
+    for username in usernames:
+        f.write(username + "\n")
