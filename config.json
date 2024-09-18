@@ -1,0 +1,13 @@
+{
+    "capmonster_key": "YOUR_CAPMONSTER_KEY_HERE",
+    "invite_code": "YOUR_INVITE_CODE_HERE",
+    "password": "YOUR_PASSWORD_HERE",
+    "proxy_type": "http",
+    "proxy_timeout": 10,
+    "username_format": "username{}",
+    "token_format": "token{}",
+    "account_format": "account{}",
+    "num_accounts": 10,
+    "num_tokens": 10,
+    "num_usernames": 10
+}
