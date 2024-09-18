@@ -1,0 +1,10 @@
+import random
+
+accounts = []
+for i in range(100):
+    account = f"account{random.randint(1, 100)}"
+    accounts.append(account)
+
+with open("accounts.txt", "w") as f:
+    for account in accounts:
+        f.write(account + "\n")
