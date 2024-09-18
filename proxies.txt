@@ -1,0 +1,11 @@
+import random
+import string
+
+proxies = []
+for i in range(100):
+    proxy = f"http://{random.choice(string.ascii_lowercase)}{random.randint(1, 100)}:{random.randint(1000, 9999)}"
+    proxies.append(proxy)
+
+with open("proxies.txt", "w") as f:
+    for proxy in proxies:
+        f.write(proxy + "\n")
