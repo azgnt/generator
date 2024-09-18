@@ -1,0 +1,10 @@
+import random
+
+tokens = []
+for i in range(100):
+    token = f"token{random.randint(1, 100)}"
+    tokens.append(token)
+
+with open("tokens.txt", "w") as f:
+    for token in tokens:
+        f.write(token + "\n")
